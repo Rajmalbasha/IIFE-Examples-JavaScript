@@ -2,11 +2,11 @@
 
 An IIFE (Immediately Invoked Function Expression) is a JavaScript function that runs as soon as it is defined.
 
-(function () {
+    (function () {
 
-statements
+      statements
 
-})();
+    })();
 
 It is a design pattern which is also known as a Self-Executing Anonymous Function and contains two major parts:
 
@@ -17,11 +17,11 @@ The second part creates the immediately invoked function expression () through w
 Examples
 The function becomes a function expression which is immediately executed. The variable within the expression can not be accessed from outside it.
 
-(function () {
+    (function () {
 
     var aName = "Barry";
 
-})();
+    })();
 
 // Variable aName is not accessible from the outside scope
 

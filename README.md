@@ -23,9 +23,9 @@ The function becomes a function expression which is immediately executed. The va
 
     })();
 
-// Variable aName is not accessible from the outside scope
+    // Variable aName is not accessible from the outside scope
 
-aName // throws "Uncaught ReferenceError: aName is not defined"
+    aName // throws "Uncaught ReferenceError: aName is not defined"
 
 Assigning the IIFE to a variable stores the function's return value, not the function definition itself.
 

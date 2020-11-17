@@ -29,14 +29,14 @@ aName // throws "Uncaught ReferenceError: aName is not defined"
 
 Assigning the IIFE to a variable stores the function's return value, not the function definition itself.
 
-var result = (function () {
+    var result = (function () {
     
     var name = "Barry";
     
     return name;
 
-})();
+    })();
 
-// Immediately creates the output:
+    // Immediately creates the output:
 
-result; // "Barry"
+    result; // "Barry"
